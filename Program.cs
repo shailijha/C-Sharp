@@ -6,14 +6,71 @@ namespace Legos
   {
     static void Main(string[] args)
     {
-      var dozer1 = new BullDozer("Blue", "Mini");
-      var dozer2 = new BullDozer("Red", "Large");
-      Console.WriteLine("Bulldozer1 is " + dozer1.color);
-      Console.WriteLine("Bulldozer2 is " + dozer2.color);
+      var man = new Man();
+      var cart = new Cart();
+      var alien = new Alien();
+
     }
   }
 
-  public class BullDozer
+  public class GeneralObject
+  {
+    public GeneralObject()
+    {
+
+    }
+
+    public bool moves { get; set; }
+    public string color { get; set; }
+  }
+
+  public class Human : GeneralObject
+  {
+    public Human()
+    {
+
+    }
+
+    public string name { get; set; }
+  }
+
+  public class Man : Human
+  {
+    public Man()
+    {
+
+    }
+    public string name { get; set; }
+  }
+
+  public class Woman : Human
+  {
+    public Woman()
+    {
+
+    }
+    public string name { get; set; }
+  }
+
+  public class Cart : GeneralObject
+  {
+    public Cart()
+    {
+
+    }
+    public string manufacturer { get; set; }
+  }
+
+  public class Alien : GeneralObject
+  {
+    public Alien()
+    {
+
+    }
+    public string planet { get; set; }
+  }
+
+  /*public class BullDozer
   {
     public BullDozer(string _color, string _size)
     {
@@ -23,5 +80,5 @@ namespace Legos
 
     public string color { get; set; }
     public string size { get; set; }
-  }
+  }*/
 }
