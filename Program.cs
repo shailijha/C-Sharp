@@ -7,10 +7,7 @@ namespace Legos
     static void Main(string[] args)
     {
       var worker = new FactoryWorker();
-      worker.count(4);
-      worker.count(5);
-
-      worker.count(4.5f);
+      Console.WriteLine(worker.addNumbers(4, 5));
     }
 
   }
@@ -22,21 +19,12 @@ namespace Legos
 
     }
 
-    public void count(int number)
+    public int addNumbers(int num1, int num2)
     {
-      if (Total == null)
-        Total = 0;
-      Total += Convert.ToSingle(number);
-      Console.WriteLine(Total.ToString());
+      var result = num1 + num2;
+      result += 100; result -= 100;
+      return result;
     }
-
-    public void count(float number)
-    {
-      Total += number;
-      Console.WriteLine(Total.ToString());
-    }
-
-    public float Total { get; set; }
   }
 
 }
