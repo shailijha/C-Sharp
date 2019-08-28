@@ -1,0 +1,11 @@
+C:\Users\shail\OneDrive\Desktop\CareerDevs\C#\Legos\bin\Debug\netcoreapp2.2\Legos.deps.json
+C:\Users\shail\OneDrive\Desktop\CareerDevs\C#\Legos\bin\Debug\netcoreapp2.2\Legos.runtimeconfig.json
+C:\Users\shail\OneDrive\Desktop\CareerDevs\C#\Legos\bin\Debug\netcoreapp2.2\Legos.runtimeconfig.dev.json
+C:\Users\shail\OneDrive\Desktop\CareerDevs\C#\Legos\bin\Debug\netcoreapp2.2\Legos.dll
+C:\Users\shail\OneDrive\Desktop\CareerDevs\C#\Legos\bin\Debug\netcoreapp2.2\Legos.pdb
+C:\Users\shail\OneDrive\Desktop\CareerDevs\C#\Legos\obj\Debug\netcoreapp2.2\Legos.csprojAssemblyReference.cache
+C:\Users\shail\OneDrive\Desktop\CareerDevs\C#\Legos\obj\Debug\netcoreapp2.2\Legos.csproj.CoreCompileInputs.cache
+C:\Users\shail\OneDrive\Desktop\CareerDevs\C#\Legos\obj\Debug\netcoreapp2.2\Legos.AssemblyInfoInputs.cache
+C:\Users\shail\OneDrive\Desktop\CareerDevs\C#\Legos\obj\Debug\netcoreapp2.2\Legos.AssemblyInfo.cs
+C:\Users\shail\OneDrive\Desktop\CareerDevs\C#\Legos\obj\Debug\netcoreapp2.2\Legos.dll
+C:\Users\shail\OneDrive\Desktop\CareerDevs\C#\Legos\obj\Debug\netcoreapp2.2\Legos.pdb
