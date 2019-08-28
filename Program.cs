@@ -6,79 +6,37 @@ namespace Legos
   {
     static void Main(string[] args)
     {
-      var man = new Man();
-      var cart = new Cart();
-      var alien = new Alien();
+      var worker = new FactoryWorker();
+      worker.count(4);
+      worker.count(5);
 
+      worker.count(4.5f);
     }
+
   }
 
-  public class GeneralObject
+  public class FactoryWorker
   {
-    public GeneralObject()
+    public FactoryWorker()
     {
 
     }
 
-    public bool moves { get; set; }
-    public string color { get; set; }
-  }
-
-  public class Human : GeneralObject
-  {
-    public Human()
+    public void count(int number)
     {
-
+      if (Total == null)
+        Total = 0;
+      Total += Convert.ToSingle(number);
+      Console.WriteLine(Total.ToString());
     }
 
-    public string name { get; set; }
-  }
-
-  public class Man : Human
-  {
-    public Man()
+    public void count(float number)
     {
-
-    }
-    public string name { get; set; }
-  }
-
-  public class Woman : Human
-  {
-    public Woman()
-    {
-
-    }
-    public string name { get; set; }
-  }
-
-  public class Cart : GeneralObject
-  {
-    public Cart()
-    {
-
-    }
-    public string manufacturer { get; set; }
-  }
-
-  public class Alien : GeneralObject
-  {
-    public Alien()
-    {
-
-    }
-    public string planet { get; set; }
-  }
-
-  /*public class BullDozer
-  {
-    public BullDozer(string _color, string _size)
-    {
-      this.color = _color;
-      this.size = _size;
+      Total += number;
+      Console.WriteLine(Total.ToString());
     }
 
-    public string color { get; set; }
-    public string size { get; set; }
-  }*/
+    public float Total { get; set; }
+  }
+
 }
